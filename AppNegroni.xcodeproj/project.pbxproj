@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C16C2872AE935FD003F4D5B /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C16C2862AE935FD003F4D5B /* Activities.swift */; };
+		2C3561E92AE6870D00401EA9 /* Onboarding3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3561E82AE6870D00401EA9 /* Onboarding3View.swift */; };
+		2C6057C82AE7AF5600243988 /* ListMorningRoutineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6057C72AE7AF5600243988 /* ListMorningRoutineView.swift */; };
+		2C6057CE2AE7B00100243988 /* MotivationalQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6057CD2AE7B00100243988 /* MotivationalQuotes.swift */; };
+		2C6057D02AE7B02300243988 /* MotivationalQuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6057CF2AE7B02300243988 /* MotivationalQuotesViewModel.swift */; };
+		2C6057D22AE818F600243988 /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6057D12AE818F600243988 /* AddActivityView.swift */; };
+		2C69C7812ADFE4C80035E1CE /* AppNegroniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69C7802ADFE4C80035E1CE /* AppNegroniApp.swift */; };
+		2C69C7832ADFE4C80035E1CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C69C7822ADFE4C80035E1CE /* ContentView.swift */; };
+		2C69C7852ADFE4C90035E1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C69C7842ADFE4C90035E1CE /* Assets.xcassets */; };
+		2C69C7882ADFE4C90035E1CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C69C7872ADFE4C90035E1CE /* Preview Assets.xcassets */; };
+		2C7B1B6F2AEBC0A800DF2A8E /* ActivitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B1B6E2AEBC0A800DF2A8E /* ActivitiesViewModel.swift */; };
+		2CE7B1EE2AE5972C00B17B27 /* Onboarding2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE7B1ED2AE5972C00B17B27 /* Onboarding2View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C16C2862AE935FD003F4D5B /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		2C3561E82AE6870D00401EA9 /* Onboarding3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding3View.swift; sourceTree = "<group>"; };
+		2C6057C72AE7AF5600243988 /* ListMorningRoutineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMorningRoutineView.swift; sourceTree = "<group>"; };
+		2C6057CD2AE7B00100243988 /* MotivationalQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalQuotes.swift; sourceTree = "<group>"; };
+		2C6057CF2AE7B02300243988 /* MotivationalQuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalQuotesViewModel.swift; sourceTree = "<group>"; };
+		2C6057D12AE818F600243988 /* AddActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		2C69C77D2ADFE4C80035E1CE /* MorningGrowth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorningGrowth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C69C7802ADFE4C80035E1CE /* AppNegroniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNegroniApp.swift; sourceTree = "<group>"; };
+		2C69C7822ADFE4C80035E1CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C69C7842ADFE4C90035E1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C69C7872ADFE4C90035E1CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C7B1B6E2AEBC0A800DF2A8E /* ActivitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewModel.swift; sourceTree = "<group>"; };
+		2CE7B1ED2AE5972C00B17B27 /* Onboarding2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C69C77A2ADFE4C80035E1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C16C2842AE935C5003F4D5B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2C6057CF2AE7B02300243988 /* MotivationalQuotesViewModel.swift */,
+				2C7B1B6E2AEBC0A800DF2A8E /* ActivitiesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2C16C2852AE935D5003F4D5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2C16C2862AE935FD003F4D5B /* Activities.swift */,
+				2C6057CD2AE7B00100243988 /* MotivationalQuotes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C69C7742ADFE4C80035E1CE = {
+			isa = PBXGroup;
+			children = (
+				2C69C77F2ADFE4C80035E1CE /* AppNegroni */,
+				2C69C77E2ADFE4C80035E1CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C69C77E2ADFE4C80035E1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C69C77D2ADFE4C80035E1CE /* MorningGrowth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C69C77F2ADFE4C80035E1CE /* AppNegroni */ = {
+			isa = PBXGroup;
+			children = (
+				2C16C2852AE935D5003F4D5B /* Models */,
+				2C16C2842AE935C5003F4D5B /* ViewModels */,
+				2C69C7802ADFE4C80035E1CE /* AppNegroniApp.swift */,
+				2C69C7822ADFE4C80035E1CE /* ContentView.swift */,
+				2CE7B1ED2AE5972C00B17B27 /* Onboarding2View.swift */,
+				2C3561E82AE6870D00401EA9 /* Onboarding3View.swift */,
+				2C69C7842ADFE4C90035E1CE /* Assets.xcassets */,
+				2C69C7862ADFE4C90035E1CE /* Preview Content */,
+				2C6057C72AE7AF5600243988 /* ListMorningRoutineView.swift */,
+				2C6057D12AE818F600243988 /* AddActivityView.swift */,
+			);
+			path = AppNegroni;
+			sourceTree = "<group>";
+		};
+		2C69C7862ADFE4C90035E1CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C69C7872ADFE4C90035E1CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C69C77C2ADFE4C80035E1CE /* MorningGrowth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C69C78B2ADFE4C90035E1CE /* Build configuration list for PBXNativeTarget "MorningGrowth" */;
+			buildPhases = (
+				2C69C7792ADFE4C80035E1CE /* Sources */,
+				2C69C77A2ADFE4C80035E1CE /* Frameworks */,
+				2C69C77B2ADFE4C80035E1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorningGrowth;
+			productName = AppNegroni;
+			productReference = 2C69C77D2ADFE4C80035E1CE /* MorningGrowth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C69C7752ADFE4C80035E1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2C69C77C2ADFE4C80035E1CE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2C69C7782ADFE4C80035E1CE /* Build configuration list for PBXProject "AppNegroni" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C69C7742ADFE4C80035E1CE;
+			productRefGroup = 2C69C77E2ADFE4C80035E1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C69C77C2ADFE4C80035E1CE /* MorningGrowth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C69C77B2ADFE4C80035E1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C69C7882ADFE4C90035E1CE /* Preview Assets.xcassets in Resources */,
+				2C69C7852ADFE4C90035E1CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C69C7792ADFE4C80035E1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C69C7832ADFE4C80035E1CE /* ContentView.swift in Sources */,
+				2C6057D22AE818F600243988 /* AddActivityView.swift in Sources */,
+				2C6057CE2AE7B00100243988 /* MotivationalQuotes.swift in Sources */,
+				2C69C7812ADFE4C80035E1CE /* AppNegroniApp.swift in Sources */,
+				2C3561E92AE6870D00401EA9 /* Onboarding3View.swift in Sources */,
+				2C6057C82AE7AF5600243988 /* ListMorningRoutineView.swift in Sources */,
+				2CE7B1EE2AE5972C00B17B27 /* Onboarding2View.swift in Sources */,
+				2C16C2872AE935FD003F4D5B /* Activities.swift in Sources */,
+				2C6057D02AE7B02300243988 /* MotivationalQuotesViewModel.swift in Sources */,
+				2C7B1B6F2AEBC0A800DF2A8E /* ActivitiesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C69C7892ADFE4C90035E1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C69C78A2ADFE4C90035E1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C69C78C2ADFE4C90035E1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppNegroni/Preview Content\"";
+				DEVELOPMENT_TEAM = CS786L2XRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mida.AppNegroni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C69C78D2ADFE4C90035E1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppNegroni/Preview Content\"";
+				DEVELOPMENT_TEAM = CS786L2XRU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mida.AppNegroni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C69C7782ADFE4C80035E1CE /* Build configuration list for PBXProject "AppNegroni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C69C7892ADFE4C90035E1CE /* Debug */,
+				2C69C78A2ADFE4C90035E1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C69C78B2ADFE4C90035E1CE /* Build configuration list for PBXNativeTarget "MorningGrowth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C69C78C2ADFE4C90035E1CE /* Debug */,
+				2C69C78D2ADFE4C90035E1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C69C7752ADFE4C80035E1CE /* Project object */;
+}
