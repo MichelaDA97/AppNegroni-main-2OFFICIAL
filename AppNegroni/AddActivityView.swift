@@ -46,46 +46,73 @@ struct AddActivityView: View {
     }
     
     var body: some View {
-        NavigationStack{
-            
-            
-            TextField("Type something here..", text: $textFieldText)
-                .frame(width: 335, height: 50).background(Color(red: 0.96, green: 0.96, blue: 0.96)).cornerRadius(12)
-                .shadow(radius: 0.5).padding(.vertical,30)
-            
-            Spacer()
-            
-            
-            
-                .toolbar{
-                   
+        
+        
+      
+            NavigationStack{
+                
+                
+                TextField("Type something here..", text: $textFieldText)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                    .background(Color(red: 0.96, green: 0.96, blue: 0.96))
+                    .cornerRadius(12)
+                    .shadow(radius: 0.5)
+                    .padding(.vertical,30)
+                
+              //  Spacer()
+                
+                
+                
+              /*  Toggle(isOn: $reminderOn) {
+                    HStack{
+                        Text("Reminder")
+                        DatePicker("", selection: $time)
+                    }
+                }
+                .padding(.horizontal,30)
+              */
+                
+                
+                Button(action:  saveButtonPressed, label: {
+                    
+                        Text("Save".uppercased())
+                            .foregroundColor(.white)
+                            .font(.headline)
+                            .frame(height: 55)
+                            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+                            .background(Color.accentColor)
+                            .cornerRadius(12)
+                            .padding(.vertical)
+                    
+                })
+                    
+                
+                
+                 /*   .toolbar{
+                        
                         Button(action: saveButtonPressed , label: {
                             Text("Save")
                         })
                         
                         
-                    }
-                    
-               /*     ToolbarItem(placement: .navigationBarLeading){
-                        Button{
-                            dismissShow.toggle()
-                        }label: {
-                            Text("Dismiss").fontWeight(.semibold)
-                        }
-                    } */
+                    }*/
                 
-            
-           
-            
-            Toggle(isOn: $reminderOn) {
-                HStack{
-                  //  Text("Set reminder")
-                    DatePicker("Set reminder", selection: $time)
-                }
-            }.padding(.horizontal,30)
-            Spacer(minLength: 540)
-        }
-    
+                /*     ToolbarItem(placement: .navigationBarLeading){
+                 Button{
+                 dismissShow.toggle()
+                 }label: {
+                 Text("Dismiss").fontWeight(.semibold)
+                 }
+                 } */
+                
+                Spacer(minLength: 500)
+                
+                
+                
+              
+            }.padding(14)
+        
     }
 }
 

@@ -18,11 +18,11 @@ struct ListMorningRoutineView: View {
     
     var quotesView = MotivationalQuotesViewModel()
     
-    var itemActivity: ActivitiesViewModel
+    @ObservedObject var itemActivity: ActivitiesViewModel
     
     
     
-   // @Binding var isOn : Bool
+    // @Binding var isOn : Bool
     //@Binding var isOn1 : Bool
     //@Binding var isOn2 : Bool
     //@Binding var isOn3 : Bool
@@ -30,7 +30,7 @@ struct ListMorningRoutineView: View {
     
     
     
-   
+    
     
     
     
@@ -42,7 +42,7 @@ struct ListMorningRoutineView: View {
     func moveItem(from: IndexSet, to: Int){
         itemActivity.items.move(fromOffsets: from, toOffset: to)
     }
-
+    
     
     
     var body: some View {
@@ -73,26 +73,29 @@ struct ListMorningRoutineView: View {
                 
             }
             .navigationTitle("Morning Routine")
-            .toolbar {
-               // ToolbarItem(placement: .primaryAction){
-                    /* Button{
-                     editShow.toggle()
-                     } label: {
-                     Image(systemName: "rectangle.and.pencil.and.ellipsis")
-                     }.sheet(isPresented: $editShow){
-                     EditActivityView().presentationDetents([.large])
-                     }*/
+          //  .navigationBarItems(trailing: NavigationLink("Add", destination: AddActivityView( list: itemActivity)))
+            
+            
+           .toolbar {
+                // ToolbarItem(placement: .primaryAction){
+                /* Button{
+                 editShow.toggle()
+                 } label: {
+                 Image(systemName: "rectangle.and.pencil.and.ellipsis")
+                 }.sheet(isPresented: $editShow){
+                 EditActivityView().presentationDetents([.large])
+                 }*/
                 
+                
+                Button{
+                    plusShow.toggle()
                     
-                    Button{
-                        plusShow.toggle()
-                        
-                    }label: {
-                        Image(systemName: "plus")
-                    }.sheet(isPresented: $plusShow){
-                        AddActivityView(list: ActivitiesViewModel()).presentationDetents([.large])
-                    }
-              
+                }label: {
+                    Image(systemName: "plus")
+                }.sheet(isPresented: $plusShow){
+                    AddActivityView(list: itemActivity).presentationDetents([.large])
+                }
+                
             }
             
             
@@ -119,7 +122,7 @@ struct ListMorningRoutineView: View {
                         
                     }
                     
-        
+                    
                     
                 }
                 .onDelete(perform: removeItem)

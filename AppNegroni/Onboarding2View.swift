@@ -122,7 +122,12 @@ struct Onboarding2View: View {
             
         NavigationLink( destination: Onboarding3View(list: ActivitiesViewModel())){
                 Text("Next")
-            }.frame(width: 145, height: 60).background(Color.accentColor).foregroundColor(.white).fontWeight(.semibold).clipShape(RoundedRectangle(cornerRadius: 10))
+            }
+        .frame(width: 145, height: 60)
+            .background(Color.accentColor)
+            .foregroundColor(.white)
+            .fontWeight(.semibold)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
             
             
                 .padding(.vertical, 60.0)

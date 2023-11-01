@@ -27,7 +27,7 @@ class ActivitiesViewModel : ObservableObject {
             items[index].text.insert()
         }*/
     
-            let newActivity = Activities(text: text)
+            let newActivity = Activities(text: text, isOn: true)
             items.append(newActivity)
         
     }
